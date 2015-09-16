@@ -46,7 +46,12 @@
 	
 ?>
 <html>
+<?php
+	$page_title = "Sisselogimise leht";
+	$page_file_name = "login.php";
+	?>
 
+<?php require_once("../header.php"); ?>
 <head>
 	<title>Login page</title>
 	<metadata encoding="UTF8">
@@ -71,5 +76,6 @@
 			<center><input type="submit" name="registreeri" value="Registreeri"></center><br>
 		</form>
 </body>
+<?php require_once("../footer.php"); ?>
 
 </html>
